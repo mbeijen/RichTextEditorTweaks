@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <CVS>$Id$</CVS>
+    <Name>RichTextEditorTweaks</Name>
+    <Version>1.0.1</Version>
+    <Framework>3.0.x</Framework>
+    <Vendor>MWB</Vendor>
+    <URL>https://github.com/MWB</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">Contains small tweaks to the Rich Text Editor in OTRS. Currently it
+    adds the Table object to the toolbar, it enables the Context menu for the editor, and it
+    also provides a full screen option for the interface.
+    </Description>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Output/HTML/Standard/RichTextEditor.dtl"/>
+        <File Permission="644" Location="var/httpd/htdocs/js/Core.UI.RichTextEditor.js"/>
+    </Filelist>
+</otrs_package>
