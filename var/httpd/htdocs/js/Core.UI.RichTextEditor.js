@@ -1,8 +1,8 @@
 // --
 // Core.UI.RichTextEditor.js - provides all UI functions
-// Copyright (C) 2001-2010 OTRS AG, http://otrs.org/\n";
+// Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n";
 // --
-// $Id: Core.UI.RichTextEditor.js,v 1.18 2010/12/06 13:50:51 mn Exp $
+// $Id: Core.UI.RichTextEditor.js,v 1.20 2010/12/06 13:50:51 mn Exp $
 // --
 // This software comes with ABSOLUTELY NO WARRANTY. For details, see
 // the enclosed file COPYING for license information (AGPL). If you
@@ -75,6 +75,7 @@ Core.UI.RichTextEditor = (function (TargetNS) {
             removePlugins : Core.Config.Get('RichText.RemovePlugins', 'elementspath,scayt,menubutton,contextmenu'),
             skin: 'default',
             forcePasteAsPlainText: false,
+            format_tags: 'p;h1;h2;h3;h4;h5;h6;pre',
             fontSize_sizes: '8px;10px;12px;16px;18px;20px;22px;24px;26px;28px;30px;',
             enterMode: CKEDITOR.ENTER_BR,
             shiftEnterMode: CKEDITOR.ENTER_BR,
