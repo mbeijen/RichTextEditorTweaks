@@ -2,7 +2,7 @@ This module for OTRS 3.0 provides some minor tweaks for the Rich Text Editor.
 Right now it does the following:
 
 * Add the Table function to the toolbar
-* Add the Full Screen functino to the toolbar
+* Add the Full Screen function to the toolbar
 * Restore the context menu for CKEditor
 
 After installing this module you can get the context menu of your browser by using
