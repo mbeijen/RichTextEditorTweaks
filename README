@@ -1,4 +1,4 @@
-This module for OTRS 3.0 provides some minor tweaks for the Rich Text Editor.
+This module for OTRS 3.1 provides some minor tweaks for the Rich Text Editor. A 3.0 version is also available.
 Right now it does the following:
 
 * Add the Table function to the toolbar
